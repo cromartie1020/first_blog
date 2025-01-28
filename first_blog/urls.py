@@ -6,4 +6,5 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls') ),
     path('admin/', admin.site.urls),
     path('accounts/', include('blog.urls')),
+    path('tinymce/', include('tinymce.urls')),
 ]
